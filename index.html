@@ -21,11 +21,29 @@
             background-color: saddlebrown;
             color: seashell;
         }
-        
-        p{
-            line-height: 30px;
+        h3{
+            color: saddlebrown;
         }
         
+        p{
+            line-height: 25px;
+            font-weight: 600;
+        }
+        
+        
+        #picture{
+            border-radius: 25px;
+        }
+        .fontcolor{
+            color: saddlebrown;
+        }
+
+        ul{
+            font-weight: 600;
+        }
+        .tamhab{
+            font-size: 20px;
+        }
     
         
             
@@ -39,13 +57,13 @@
 
 <body>
     <h1>Nícolas Tozato</h1>
-    <img src="minhafoto.jpeg" width="300px">
-    <h2>
+    <img id="picture" src="minhafoto.jpeg" width="300px">
+    <h2 id="sobre mim">
         Sobre mim:
     </h2>
 
     
-    <p>Meu nome é Nícolas Soares Tozato, sou <strong>brasileiro</strong> e tenho 29 anos. Natural de
+    <p class="fontcolor">Meu nome é Nícolas Soares Tozato, sou <strong>brasileiro</strong> e tenho 29 anos. Natural de
         São José dos Campos-SP e morando atualmente em <strong>Anápolis-GO</strong>. Após
         receber um anúncio via Facebook da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>, a escola que está revolucionando
         o mercado de aprendizagem no Brasil, decidi participar do processo seletivo. <strong> Entre
@@ -54,16 +72,24 @@
         primeiros passos em HTML e CSS.
     </p>
 
-    <h2>
+    <h2 id="habilidades">
         Habilidades:
     </h2>
-    <ul>
+    <ul class="fontcolor">
         <li>Comunicativo </li>
-        <li>Paciência</li>
+        <li class="tamhab">Paciência</li>
         <li>Resiliência</li>
-        <li>Aprendiz na programação</li>
+        <li class="tamhab">Aprendiz na programação</li>
         <li>Fluência no inglês</li>
-        <li>Multi instrumentista </li>
+        <li class="tamhab">Multi instrumentista </li>
+    </ul>
+    <h3>
+        Tópicos:
+
+    </h3>
+    <ul>
+        <li><a href="#sobre mim">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
     </ul>
     
 
