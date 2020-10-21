@@ -1,0 +1,88 @@
+
+        body{
+            background-color: rgb(400,400,200);
+            font-family: sans-serif;
+            
+            
+            
+        }
+
+        h1{
+            font-weight: 600;
+            color: saddlebrown;
+        }
+
+        h2{
+            
+            color: saddlebrown
+        }
+        h3{
+            color: saddlebrown;
+        }
+        
+        p{
+            line-height: 25px;
+            font-weight: 600;
+        }
+        
+        
+        #picture{
+            border-radius: 25px;
+        }
+        .fontcolor{
+            color: saddlebrown;
+        }
+
+        ul{
+            font-weight: 600;
+        }
+        .tamhab{
+            font-size: 20px;
+        }
+
+        .name{
+            text-align: center;
+
+            
+            
+        }
+
+        .sobre-mim{
+            border: 5px groove saddlebrown;
+            padding: 6px;
+            width: 40%;
+            float: right;
+            position: relative;
+            bottom: 400px;
+            left: 50px
+            margin 35px;
+            padding:35px;
+        }
+
+        .habilidades{
+            
+            width: 40%;
+            margin:35px;
+            padding:35px;
+        }
+
+        .foto{
+           margin:35px;
+           padding: 35px;
+           
+           
+        }
+
+        
+            
+    
+        
+    
+        
+            
+    
+
+
+    
+
+    
